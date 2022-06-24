@@ -104,9 +104,17 @@ body {
         height:80px;
         min-height:40px;
     }
+
     .content {
         font-size:10px;
-      color:rgba(255,255,255,255);
+        color: rgb(203, 230, 0);
+    }
+    .container{
+        width: 15px;
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+        font-size: small;
     }
 
     img{
@@ -119,6 +127,7 @@ body {
     .theCard{
         min-width: 100px;
         font-size-adjust: inherit;
+        font-size: small;
     }
     .btn{
         min-width: 30%;
