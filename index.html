@@ -4,36 +4,38 @@
     <meta charset="UTF-8">
     <title>Main Page</title>
     <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 
 </head>
 <body class="header">
-<div class="container" style="padding: 4%; width: 100%; align-content: center; height: 100%;overflow: auto ">
-  <div class="card shadow border" style="padding:2%;width: 50%; margin-left: 25%; height: fit-content">
-    <div class="row g-0">
-      <div class="col-md-4">
-        <img src="https://static.vecteezy.com/system/resources/previews/002/047/029/original/forgot-the-password-concept-flat-illustration-vector.jpg" class="img-fluid rounded-start" alt="...">
-      </div>
-      <div class="col-md-8">
-        <div class="card-body">
-          <h5 class="card-title">Login & Register Page</h5>
-          <p class="card-text">This is a Login & Register page by Ammar, <br>Only front-end is implemented now !<br>back-end will be implemented soon 😋</p>
-          <p class="card-text"><small class="text-muted">Thanks for visiting the website</small></p>
+<div class="container">
+  <div class="theCard">
+    <div class="card shadow border">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="https://static.vecteezy.com/system/resources/previews/002/047/029/original/forgot-the-password-concept-flat-illustration-vector.jpg" class="img-fluid rounded-start" alt="...">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title">Login & Register Page</h5>
+            <p class="card-text">This is a Login & Register page by Ammar, <br>Only front-end is implemented now !<br>back-end will be implemented soon 😋</p>
+            <p class="card-text"><small class="text-muted">Thanks for visiting the website</small></p>
 
-          <hr>
-          <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+            <hr>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-end">
 
-            <button class="btn btn-outline-primary" type="button" onclick="function loginPage() {
-                                window.location.href='./login.html';
-                            }
-                            loginPage()">Login</button>
+              <button class="btn btn-outline-primary" type="button" onclick="
+              function loginPage() {
+                window.location.href='./login.html';
+              }loginPage()">Login</button>
 
-            <button class="btn btn-primary" type="button" onclick="function regPage() {
-                                window.location.href='./register.html';
-                            }
-                            regPage()">Register</button>
+              <button class="btn btn-primary" type="button" onclick="
+              function regPage() {
+                window.location.href='./register.html';
+              } regPage()">Register</button>
+            </div>
           </div>
-
         </div>
       </div>
     </div>
