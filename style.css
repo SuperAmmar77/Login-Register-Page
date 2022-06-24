@@ -30,6 +30,19 @@ body {
     margin-bottom: 10px;
 }
 
+.container{
+    padding: 8%;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+}
+.theCard{
+    margin-right: auto;
+    margin-left: auto;
+    width: 90%;
+    position: center;
+    max-width: 470px;
+}
 .waves {
     position:relative;
     width: 100%;
@@ -46,6 +59,7 @@ body {
     text-align:center;
     font-family: "Open Sans Semibold";
     background-color: rgba(255, 255, 255, 0);
+    font-size: 10px;
 }
 
 #footer {
@@ -53,7 +67,6 @@ body {
     bottom: 5px;
     width: 100%;
 }
-
 /* Animation */
 
 .parallax > use {
@@ -87,13 +100,26 @@ body {
 /*Shrinking for mobile*/
 @media (max-width: 768px) {
     .waves {
-        height:40px;
+        height:80px;
         min-height:40px;
     }
     .content {
-        height:30vh;
+        font-size:10px;
     }
-    h1 {
-        font-size:24px;
+
+    img{
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        display: block;
+    }
+    .theCard{
+        min-width: 200px;
+        font-size-adjust: inherit;
+    }
+    .btn{
+        width: 30%;
+        font-size: small;
+
     }
 }
